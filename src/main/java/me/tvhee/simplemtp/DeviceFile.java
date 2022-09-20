@@ -2,13 +2,8 @@ package me.tvhee.simplemtp;
 
 import be.derycke.pieter.com.COMException;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.nio.file.CopyOption;
 import java.nio.file.Files;
-import java.nio.file.StandardCopyOption;
 import jmtp.PortableDeviceObject;
 import jmtp.PortableDeviceToHostImpl32;
 
