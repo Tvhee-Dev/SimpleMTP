@@ -2,17 +2,17 @@
 
 ## Usage
 1. To start scanning for devices call the `DeviceManager`:
-```
+```java
 List<ExternalDevice> deviceList = new ArrayList<>(DeviceManager.getDevices());
 ```
 2. You can get any device from the list by name
-```
+```java
 for(ExternalDevice device : deviceList)
     if(device.getName().equals(...))
         //Do something with the device
 ```
 3. If you want to browse the files, call `openDevice();`. Then call one of the following methods:
-```
+```java
 addFile(File file, String mtpDirectory);
 
 getFile(String mtpDirectory, String fileName);
